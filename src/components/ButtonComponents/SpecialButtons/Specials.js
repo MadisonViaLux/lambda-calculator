@@ -9,7 +9,7 @@ import {specials} from '../../../data'
 export const Specials = () => {
   // STEP 2 - add the imported data to state
 
-  const {specialsList, setSpecials} = useState(specials)
+  const [specialsList, setSpecials] = useState(specials)
 
   return (
     <div>
